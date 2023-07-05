@@ -2,7 +2,7 @@ import Badge from "@mui/material/Badge";
 import NotificationsNoneOutlinedIcon from "@mui/icons-material/NotificationsNoneOutlined";
 import Avatar from "@mui/material/Avatar";
 import Stack from "@mui/material/Stack";
-
+import avtar from "../assets/avtar.jpg";
 const TopNavbar = () => {
   return (
     <div className="top-navbar">
@@ -32,7 +32,7 @@ const TopNavbar = () => {
                     <Avatar
                       sx={{ height: "30px", width: "30px" }}
                       alt="Remy Sharp"
-                      src="./src/assets/avtar.jpg"
+                      src={avtar}
                     />
                   </Stack>
                 </a>
