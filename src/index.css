@@ -767,7 +767,7 @@ height: 743px; */
   align-items: center;
   justify-content: center;
 }
-.css-sghohy-MuiButtonBase-root-MuiButton-root.back-btn-steper {
+.back-btn-steper {
   margin-right: 12px !important;
   padding: 5px 48px !important;
   border-radius: 10px !important;
@@ -775,7 +775,7 @@ height: 743px; */
   color: #fff !important;
   text-transform: initial !important;
 }
-.css-sghohy-MuiButtonBase-root-MuiButton-root.next-save-btn {
+.next-save-btn {
   margin-left: 12px !important;
   padding: 5px 48px !important;
   border-radius: 10px !important;
