@@ -9,30 +9,15 @@ import StepConnector, {
   stepConnectorClasses,
 } from "@mui/material/StepConnector";
 import { styled } from "@mui/material";
-import GpsFixedIcon from "@mui/icons-material/GpsFixed";
-import ChecklistIcon from "@mui/icons-material/Checklist";
+
 import LocationOnIcon from "@mui/icons-material/LocationOn";
-import ListAltIcon from "@mui/icons-material/ListAlt";
-import CheckCircleIcon from "@mui/icons-material/CheckCircle";
-import AttachmentIcon from "@mui/icons-material/Attachment";
-import BallotIcon from "@mui/icons-material/Ballot";
-import MyLocationIcon from "@mui/icons-material/MyLocation";
-import AddCircleOutlineIcon from "@mui/icons-material/AddCircleOutline";
-import { Padding } from "@mui/icons-material";
-import LocationCityIcon from "@mui/icons-material/LocationCity";
-import ApartmentIcon from "@mui/icons-material/Apartment";
-import ImportantDevicesIcon from "@mui/icons-material/ImportantDevices";
-import BedIcon from "@mui/icons-material/Bed";
-import DomainIcon from "@mui/icons-material/Domain";
+
 import PersonOutlineOutlinedIcon from "@mui/icons-material/PersonOutlineOutlined";
 import AccountBalanceOutlinedIcon from "@mui/icons-material/AccountBalanceOutlined";
-import ReceiptOutlinedIcon from "@mui/icons-material/ReceiptOutlined";
 
 //
 import FormControlLabel from "@mui/material/FormControlLabel";
 import Switch from "@mui/material/Switch";
-import AddIcon from "@mui/icons-material/Add";
-import RemoveIcon from "@mui/icons-material/Remove";
 
 import "react-datepicker/dist/react-datepicker.css";
 import DatePicker from "react-datepicker";
@@ -303,7 +288,7 @@ const TenatsStepperFrom = () => {
             connector={<ColorlibConnector />}
           >
             {steps.map((label, index) => (
-              <Step key={label}>
+              <Step key={index}>
                 <StepLabel
                   StepIconComponent={ColorlibStepIcon}
                   onClick={() => setActiveStep(index)}

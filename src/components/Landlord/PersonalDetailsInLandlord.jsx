@@ -137,7 +137,7 @@ const PersonalDetailsInLandlord = () => {
             id="invalidCheck"
             required
           />
-          <label className="form-check-label" for="invalidCheck">
+          <label className="form-check-label" htmlFor="invalidCheck">
             I accept the <a>terms & conditions</a> to add my property to
             the canestate platform
           </label>
