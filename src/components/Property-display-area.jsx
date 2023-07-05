@@ -3,6 +3,10 @@ import AddIcon from "@mui/icons-material/Add";
 import FilterAltTwoToneIcon from "@mui/icons-material/FilterAltTwoTone";
 import Pagination from "@mui/material/Pagination";
 import Stack from "@mui/material/Stack";
+import cardimg2 from "../assets/card-img-2.png";
+import basin from "../assets/basin.png";
+import bed from "../assets/bed.png";
+import carparking from "../assets/car-parking.png";
 
 const PropertyDisplayrArea = () => {
   return (
@@ -87,9 +91,9 @@ const PropertyDisplayrArea = () => {
           <div className="col-md-3  ">
             <div className="card main-card">
               <img
-                src="./src/assets/card-img-2.png"
+                src={cardimg2}
                 className="card-img-top"
-                alt="..."
+                alt="loading......"
               />
               <div className="card-body card-body-area">
                 <h5 className="card-title">
@@ -109,8 +113,8 @@ const PropertyDisplayrArea = () => {
                     <div className="icon-bottom">
                       <img
                         className="card-bottom-icon-2"
-                        src="./src/assets/car-parking.png"
-                        alt=""
+                        src={carparking}
+                        alt="loading....."
                       />
                       <span className="card-bottom-text">5</span>
                     </div>
@@ -119,8 +123,8 @@ const PropertyDisplayrArea = () => {
                     <div className="icon-bottom">
                       <img
                         className="card-bottom-icon"
-                        src="./src/assets/bed.png"
-                        alt=""
+                        src={bed}
+                        alt="loading....."
                       />
                       <span className="card-bottom-text">3</span>
                     </div>
@@ -129,8 +133,8 @@ const PropertyDisplayrArea = () => {
                     <div className="icon-bottom">
                       <img
                         className="card-bottom-icon"
-                        src="./src/assets/basin.png"
-                        alt=""
+                        src={basin}
+                        alt="loading....."
                       />
                       <span className="card-bottom-text">2</span>
                     </div>
@@ -142,9 +146,9 @@ const PropertyDisplayrArea = () => {
           <div className="col-md-3  ">
             <div className="card main-card-2">
               <img
-                src="./src/assets/card-img-2.png"
+                src={cardimg2}
                 className="card-img-top"
-                alt="..."
+                alt="loading......"
               />
               <div className="card-body card-body-area">
                 <h5 className="card-title">
@@ -163,8 +167,8 @@ const PropertyDisplayrArea = () => {
                   <li className="list-group-item border-0">
                     <img
                       className="card-bottom-icon-2"
-                      src="./src/assets/car-parking.png"
-                      alt=""
+                      src={carparking}
+                      alt="loading....."
                     />
                     <span className="card-bottom-text">0</span>
                   </li>
@@ -191,9 +195,9 @@ const PropertyDisplayrArea = () => {
           <div className="col-md-3  ">
             <div className="card main-card">
               <img
-                src="./src/assets/card-img-2.png"
+                src={cardimg2}
                 className="card-img-top"
-                alt="..."
+                alt="loading......"
               />
               <div className="card-body card-body-area">
                 <h5 className="card-title">
@@ -213,8 +217,8 @@ const PropertyDisplayrArea = () => {
                     <div className="icon-bottom">
                       <img
                         className="card-bottom-icon-2"
-                        src="./src/assets/car-parking.png"
-                        alt=""
+                        src={carparking}
+                        alt="loading....."
                       />
                       <span className="card-bottom-text">5</span>
                     </div>
@@ -223,8 +227,8 @@ const PropertyDisplayrArea = () => {
                     <div className="icon-bottom">
                       <img
                         className="card-bottom-icon"
-                        src="./src/assets/bed.png"
-                        alt=""
+                        src={bed}
+                        alt="loading....."
                       />
                       <span className="card-bottom-text">3</span>
                     </div>
@@ -233,8 +237,8 @@ const PropertyDisplayrArea = () => {
                     <div className="icon-bottom">
                       <img
                         className="card-bottom-icon"
-                        src="./src/assets/basin.png"
-                        alt=""
+                        src={basin}
+                        alt="loading....."
                       />
                       <span className="card-bottom-text">2</span>
                     </div>
@@ -246,9 +250,9 @@ const PropertyDisplayrArea = () => {
           <div className="col-md-3  ">
             <div className="card main-card">
               <img
-                src="./src/assets/card-img-2.png"
+                src={cardimg2}
                 className="card-img-top"
-                alt="..."
+                alt="loading......"
               />
               <div className="card-body card-body-area">
                 <h5 className="card-title">
@@ -268,8 +272,8 @@ const PropertyDisplayrArea = () => {
                     <div className="icon-bottom">
                       <img
                         className="card-bottom-icon-2"
-                        src="./src/assets/car-parking.png"
-                        alt=""
+                        src={carparking}
+                        alt="loading....."
                       />
                       <span className="card-bottom-text">5</span>
                     </div>
@@ -278,8 +282,8 @@ const PropertyDisplayrArea = () => {
                     <div className="icon-bottom">
                       <img
                         className="card-bottom-icon"
-                        src="./src/assets/bed.png"
-                        alt=""
+                        src={bed}
+                        alt="loading....."
                       />
                       <span className="card-bottom-text">3</span>
                     </div>
@@ -288,8 +292,8 @@ const PropertyDisplayrArea = () => {
                     <div className="icon-bottom">
                       <img
                         className="card-bottom-icon"
-                        src="./src/assets/basin.png"
-                        alt=""
+                        src={basin}
+                        alt="loading....."
                       />
                       <span className="card-bottom-text">2</span>
                     </div>
@@ -301,9 +305,9 @@ const PropertyDisplayrArea = () => {
           <div className="col-md-3  ">
             <div className="card main-card">
               <img
-                src="./src/assets/card-img-2.png"
+                src={cardimg2}
                 className="card-img-top"
-                alt="..."
+                alt="loading......"
               />
               <div className="card-body card-body-area">
                 <h5 className="card-title">
@@ -323,8 +327,8 @@ const PropertyDisplayrArea = () => {
                     <div className="icon-bottom">
                       <img
                         className="card-bottom-icon-2"
-                        src="./src/assets/car-parking.png"
-                        alt=""
+                        src={carparking}
+                        alt="loading....."
                       />
                       <span className="card-bottom-text">5</span>
                     </div>
@@ -333,8 +337,8 @@ const PropertyDisplayrArea = () => {
                     <div className="icon-bottom">
                       <img
                         className="card-bottom-icon"
-                        src="./src/assets/bed.png"
-                        alt=""
+                        src={bed}
+                        alt="loading....."
                       />
                       <span className="card-bottom-text">3</span>
                     </div>
@@ -343,8 +347,8 @@ const PropertyDisplayrArea = () => {
                     <div className="icon-bottom">
                       <img
                         className="card-bottom-icon"
-                        src="./src/assets/basin.png"
-                        alt=""
+                        src={basin}
+                        alt="loading....."
                       />
                       <span className="card-bottom-text">2</span>
                     </div>
@@ -356,9 +360,9 @@ const PropertyDisplayrArea = () => {
           <div className="col-md-3  ">
             <div className="card main-card-2">
               <img
-                src="./src/assets/card-img-2.png"
+                src={cardimg2}
                 className="card-img-top"
-                alt="..."
+                alt="loading......"
               />
               <div className="card-body card-body-area">
                 <h5 className="card-title">
@@ -377,8 +381,8 @@ const PropertyDisplayrArea = () => {
                   <li className="list-group-item border-0">
                     <img
                       className="card-bottom-icon-2"
-                      src="./src/assets/car-parking.png"
-                      alt=""
+                      src={carparking}
+                      alt="loading....."
                     />
                     <span className="card-bottom-text">0</span>
                   </li>
@@ -405,9 +409,9 @@ const PropertyDisplayrArea = () => {
           <div className="col-md-3  ">
             <div className="card main-card">
               <img
-                src="./src/assets/card-img-2.png"
+                src={cardimg2}
                 className="card-img-top"
-                alt="..."
+                alt="loading......"
               />
               <div className="card-body card-body-area">
                 <h5 className="card-title">
@@ -427,8 +431,8 @@ const PropertyDisplayrArea = () => {
                     <div className="icon-bottom">
                       <img
                         className="card-bottom-icon-2"
-                        src="./src/assets/car-parking.png"
-                        alt=""
+                        src={carparking}
+                        alt="loading....."
                       />
                       <span className="card-bottom-text">5</span>
                     </div>
@@ -437,8 +441,8 @@ const PropertyDisplayrArea = () => {
                     <div className="icon-bottom">
                       <img
                         className="card-bottom-icon"
-                        src="./src/assets/bed.png"
-                        alt=""
+                        src={bed}
+                        alt="loading....."
                       />
                       <span className="card-bottom-text">3</span>
                     </div>
@@ -447,8 +451,8 @@ const PropertyDisplayrArea = () => {
                     <div className="icon-bottom">
                       <img
                         className="card-bottom-icon"
-                        src="./src/assets/basin.png"
-                        alt=""
+                        src={basin}
+                        alt="loading....."
                       />
                       <span className="card-bottom-text">2</span>
                     </div>
@@ -460,9 +464,9 @@ const PropertyDisplayrArea = () => {
           <div className="col-md-3  ">
             <div className="card main-card">
               <img
-                src="./src/assets/card-img-2.png"
+                src={cardimg2}
                 className="card-img-top"
-                alt="..."
+                alt="loading......"
               />
               <div className="card-body card-body-area">
                 <h5 className="card-title">
@@ -482,8 +486,8 @@ const PropertyDisplayrArea = () => {
                     <div className="icon-bottom">
                       <img
                         className="card-bottom-icon-2"
-                        src="./src/assets/car-parking.png"
-                        alt=""
+                        src={carparking}
+                        alt="loading....."
                       />
                       <span className="card-bottom-text">5</span>
                     </div>
@@ -492,8 +496,8 @@ const PropertyDisplayrArea = () => {
                     <div className="icon-bottom">
                       <img
                         className="card-bottom-icon"
-                        src="./src/assets/bed.png"
-                        alt=""
+                        src={bed}
+                        alt="loading....."
                       />
                       <span className="card-bottom-text">3</span>
                     </div>
@@ -502,8 +506,8 @@ const PropertyDisplayrArea = () => {
                     <div className="icon-bottom">
                       <img
                         className="card-bottom-icon"
-                        src="./src/assets/basin.png"
-                        alt=""
+                        src={basin}
+                        alt="loading....."
                       />
                       <span className="card-bottom-text">2</span>
                     </div>
