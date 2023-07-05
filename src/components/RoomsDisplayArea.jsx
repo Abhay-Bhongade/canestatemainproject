@@ -3,6 +3,7 @@ import AddIcon from "@mui/icons-material/Add";
 import FilterAltTwoToneIcon from "@mui/icons-material/FilterAltTwoTone";
 import Pagination from "@mui/material/Pagination";
 import Stack from "@mui/material/Stack";
+import room from "../assets/rooms-img.png";
 
 const RoomsDisplayArea = () => {
   return (
@@ -86,11 +87,7 @@ const RoomsDisplayArea = () => {
         <div className="row card-main-row">
           <div className="col-md-3  ">
             <div className="card main-card">
-              <img
-                src="./src/assets/rooms-img.png"
-                className="card-img-top"
-                alt="..."
-              />
+              <img src={room} className="card-img-top" alt="loading..." />
               <div className="card-body card-body-area-rooms">
                 <h5 className="card-title">
                   <div className="row ">
@@ -117,11 +114,7 @@ const RoomsDisplayArea = () => {
           </div>
           <div className="col-md-3  ">
             <div className="card main-card-2">
-              <img
-                src="./src/assets/rooms-img.png"
-                className="card-img-top"
-                alt="..."
-              />
+              <img src={room} className="card-img-top" alt="loading..." />
               <div className="card-body card-body-area-rooms">
                 <h5 className="card-title">
                   <div className="row ">
@@ -148,11 +141,7 @@ const RoomsDisplayArea = () => {
           </div>
           <div className="col-md-3  ">
             <div className="card main-card">
-              <img
-                src="./src/assets/rooms-img.png"
-                className="card-img-top"
-                alt="..."
-              />
+              <img src={room} className="card-img-top" alt="loading..." />
               <div className="card-body card-body-area-rooms">
                 <h5 className="card-title">
                   <div className="row ">
@@ -179,11 +168,7 @@ const RoomsDisplayArea = () => {
           </div>
           <div className="col-md-3  ">
             <div className="card main-card">
-              <img
-                src="./src/assets/rooms-img.png"
-                className="card-img-top"
-                alt="..."
-              />
+              <img src={room} className="card-img-top" alt="loading..." />
               <div className="card-body card-body-area-rooms">
                 <h5 className="card-title">
                   <div className="row ">
@@ -210,11 +195,7 @@ const RoomsDisplayArea = () => {
           </div>
           <div className="col-md-3  ">
             <div className="card main-card">
-              <img
-                src="./src/assets/rooms-img.png"
-                className="card-img-top"
-                alt="..."
-              />
+              <img src={room} className="card-img-top" alt="loading..." />
               <div className="card-body card-body-area-rooms">
                 <h5 className="card-title">
                   <div className="row ">
@@ -241,11 +222,7 @@ const RoomsDisplayArea = () => {
           </div>
           <div className="col-md-3  ">
             <div className="card main-card-2">
-              <img
-                src="./src/assets/rooms-img.png"
-                className="card-img-top"
-                alt="..."
-              />
+              <img src={room} className="card-img-top" alt="loading..." />
               <div className="card-body card-body-area-rooms">
                 <h5 className="card-title">
                   <div className="row ">
@@ -272,11 +249,7 @@ const RoomsDisplayArea = () => {
           </div>
           <div className="col-md-3  ">
             <div className="card main-card">
-              <img
-                src="./src/assets/rooms-img.png"
-                className="card-img-top"
-                alt="..."
-              />
+              <img src={room} className="card-img-top" alt="loading..." />
               <div className="card-body card-body-area-rooms">
                 <h5 className="card-title">
                   <div className="row ">
@@ -303,11 +276,7 @@ const RoomsDisplayArea = () => {
           </div>
           <div className="col-md-3  ">
             <div className="card main-card">
-              <img
-                src="./src/assets/rooms-img.png"
-                className="card-img-top"
-                alt="..."
-              />
+              <img src={room} className="card-img-top" alt="loading..." />
               <div className="card-body card-body-area-rooms">
                 <h5 className="card-title">
                   <div className="row ">
