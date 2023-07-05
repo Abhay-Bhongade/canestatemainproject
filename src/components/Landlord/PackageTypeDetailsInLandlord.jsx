@@ -1,4 +1,7 @@
 import React from "react";
+import pinkdiamond from "../../assets/pink-dimond.png";
+import bluediamond from "../../assets/blue-dimond.png";
+import purplediamond from "../../assets/parple-dimond.png";
 
 const PackageTypeDetailsInLandlord = () => {
   return (
@@ -46,7 +49,7 @@ const PackageTypeDetailsInLandlord = () => {
               <div className="col-sm-4 package-card-bule">
                 <div className="package-gold mb-3">
                   <div className="img-area-gold">
-                    <img src="./src/assets/blue-dimond.png" alt="" />
+                    <img src={bluediamond} alt="loading...." />
                   </div>
                   <div className="heading-gold">
                     <p>silver</p>
@@ -70,7 +73,7 @@ const PackageTypeDetailsInLandlord = () => {
               <div className="col-sm-4 package-card-pink mx-5">
                 <div className="package-gold mb-3">
                   <div className="img-area-gold">
-                    <img src="./src/assets/pink-dimond.png" alt="" />
+                    <img src={pinkdiamond} alt="loading...." />
                   </div>
                   <div className="heading-gold">
                     <p>gold</p>
@@ -94,7 +97,7 @@ const PackageTypeDetailsInLandlord = () => {
               <div className="col-sm-4 package-card-purple">
                 <div className="package-gold mb-3">
                   <div className="img-area-gold">
-                    <img src="./src/assets/parple-dimond.png" alt="" />
+                    <img src={purplediamond} alt="loading...." />
                   </div>
                   <div className="heading-gold">
                     <p>Platinum</p>
@@ -129,7 +132,7 @@ const PackageTypeDetailsInLandlord = () => {
               <div className="col-sm-4 package-card-bule">
                 <div className="package-gold mb-3">
                   <div className="img-area-gold">
-                    <img src="./src/assets/blue-dimond.png" alt="" />
+                    <img src={bluediamond} alt="loading...." />
                   </div>
                   <div className="heading-gold">
                     <p>silver</p>
@@ -153,7 +156,8 @@ const PackageTypeDetailsInLandlord = () => {
               {/* <div className="col-sm-4 package-card-pink mx-5">
                 <div className="package-gold mb-3">
                   <div className="img-area-gold">
-                    <img src="./src/assets/pink-dimond.png" alt="" />
+                    <img src={pinkdiamond} alt="loading...." />
+
                   </div>
                   <div className="heading-gold">
                     <p>gold</p>
@@ -177,7 +181,7 @@ const PackageTypeDetailsInLandlord = () => {
               <div className="col-sm-4 package-card-purple mx-5">
                 <div className="package-gold mb-3">
                   <div className="img-area-gold">
-                    <img src="./src/assets/parple-dimond.png" alt="" />
+                    <img src={purplediamond} alt="loading...." />
                   </div>
                   <div className="heading-gold">
                     <p>Platinum</p>
@@ -209,7 +213,7 @@ const PackageTypeDetailsInLandlord = () => {
         <div className="col-sm-4 package-card-bule">
           <div className="package-gold mb-3">
             <div className="img-area-gold">
-              <img src="./src/assets/blue-dimond.png" alt="" />
+              <img src={bluediamond} alt="loading...." />
             </div>
             <div className="heading-gold">
               <p>silver</p>
@@ -233,7 +237,8 @@ const PackageTypeDetailsInLandlord = () => {
         <div className="col-sm-4 package-card-pink mx-5">
           <div className="package-gold mb-3">
             <div className="img-area-gold">
-              <img src="./src/assets/pink-dimond.png" alt="" />
+              <img src={pinkdiamond} alt="loading...." />
+
             </div>
             <div className="heading-gold">
               <p>gold</p>
@@ -257,7 +262,7 @@ const PackageTypeDetailsInLandlord = () => {
         <div className="col-sm-4 package-card-purple">
           <div className="package-gold mb-3">
             <div className="img-area-gold">
-              <img src="./src/assets/parple-dimond.png" alt="" />
+              <img src={purplediamond} alt="loading...." />
             </div>
             <div className="heading-gold">
               <p>Platinum</p>
@@ -281,7 +286,7 @@ const PackageTypeDetailsInLandlord = () => {
       </div>
     </div> */}
 
-      <div className="mt-4">
+      <div className="my-4">
         <div class="wrapper-inner land-swich">
           <div class="form-group">
             <div class="radio">

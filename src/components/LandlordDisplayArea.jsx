@@ -6,8 +6,13 @@ import Stack from "@mui/material/Stack";
 import InfoOutlinedIcon from "@mui/icons-material/InfoOutlined";
 import BorderColorOutlinedIcon from "@mui/icons-material/BorderColorOutlined";
 import DeleteOutlineOutlinedIcon from "@mui/icons-material/DeleteOutlineOutlined";
+import pinkdiamond from "../assets/pink-dimond.png";
 import RemoveRedEyeOutlinedIcon from "@mui/icons-material/RemoveRedEyeOutlined";
-
+import purplediamond from "../assets/parple-dimond.png";
+import bluediamond from "../assets/blue-dimond.png";
+import jackimg from "../assets/jack-img.png";
+import profile2 from "../assets/profile-2.png";
+import profile3 from "../assets/profile-3.png";
 const LandlordDisplayArea = () => {
   return (
     <>
@@ -97,7 +102,7 @@ const LandlordDisplayArea = () => {
               /> */}
               <div className="profile-area">
                 <div className="img-layout">
-                  <img src="./src/assets/jack-img.png" alt="" />
+                  <img src={jackimg} alt="loading...." />
                 </div>
               </div>
               <div className="card-body card-body-area">
@@ -105,7 +110,7 @@ const LandlordDisplayArea = () => {
                   <div className="row ">
                     <div className="landlord-group">
                       <p className="card-text card-p m-0">Jack</p>
-                      <img src="./src/assets/pink-dimond.png" alt="" />
+                      <img src={pinkdiamond} alt="loading..." />
                     </div>
                     <p className="card-layout-buttom-p">
                       kauramritjot@gmail.com
@@ -170,7 +175,7 @@ const LandlordDisplayArea = () => {
               /> */}
               <div className="profile-area">
                 <div className="img-layout">
-                  <img src="./src/assets/profile-2.png" alt="" />
+                  <img src={profile2} alt="loading...." />
                 </div>
               </div>
               <div className="card-body card-body-area">
@@ -243,7 +248,7 @@ const LandlordDisplayArea = () => {
               /> */}
               <div className="profile-area">
                 <div className="img-layout">
-                  <img src="./src/assets/profile-3.png" alt="" />
+                  <img src={profile3} alt="loading...." />
                 </div>
               </div>
               <div className="card-body card-body-area">
@@ -251,7 +256,7 @@ const LandlordDisplayArea = () => {
                   <div className="row ">
                     <div className="landlord-group">
                       <p className="card-text card-p m-0">Jack</p>
-                      <img src="./src/assets/parple-dimond.png" alt="" />
+                      <img src={purplediamond} alt="loading..." />
                     </div>
                     <p className="card-layout-buttom-p">
                       kauramritjot@gmail.com
@@ -316,7 +321,7 @@ const LandlordDisplayArea = () => {
               /> */}
               <div className="profile-area">
                 <div className="img-layout">
-                  <img src="./src/assets/profile-2.png" alt="" />
+                  <img src={profile2} alt="loading...." />
                 </div>
               </div>
               <div className="card-body card-body-area">
@@ -324,7 +329,7 @@ const LandlordDisplayArea = () => {
                   <div className="row ">
                     <div className="landlord-group">
                       <p className="card-text card-p m-0">Jack</p>
-                      <img src="./src/assets/blue-dimond.png" alt="" />
+                      <img src={bluediamond} alt="loading...." />
                     </div>
                     <p className="card-layout-buttom-p">
                       kauramritjot@gmail.com
@@ -389,7 +394,7 @@ const LandlordDisplayArea = () => {
               /> */}
               <div className="profile-area">
                 <div className="img-layout">
-                  <img src="./src/assets/profile-3.png" alt="" />
+                  <img src={profile3} alt="loading...." />
                 </div>
               </div>
               <div className="card-body card-body-area">
@@ -397,7 +402,7 @@ const LandlordDisplayArea = () => {
                   <div className="row ">
                     <div className="landlord-group">
                       <p className="card-text card-p m-0">Jack</p>
-                      <img src="./src/assets/parple-dimond.png" alt="" />
+                      <img src={purplediamond} alt="loading..." />
                     </div>
                     <p className="card-layout-buttom-p">
                       kauramritjot@gmail.com
@@ -462,7 +467,7 @@ const LandlordDisplayArea = () => {
               /> */}
               <div className="profile-area">
                 <div className="img-layout">
-                  <img src="./src/assets/jack-img.png" alt="" />
+                  <img src={jackimg} alt="loading...." />
                 </div>
               </div>
               <div className="card-body card-body-area">
@@ -470,7 +475,7 @@ const LandlordDisplayArea = () => {
                   <div className="row ">
                     <div className="landlord-group">
                       <p className="card-text card-p m-0">Jack</p>
-                      <img src="./src/assets/pink-dimond.png" alt="" />
+                      <img src={pinkdiamond} alt="loading..." />
                     </div>
                     <p className="card-layout-buttom-p">
                       kauramritjot@gmail.com

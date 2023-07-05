@@ -1,4 +1,5 @@
 import React from "react";
+import score from "../../assets/score.png";
 
 const BankDetailsInTenant = () => {
   return (
@@ -105,7 +106,7 @@ const BankDetailsInTenant = () => {
           </div>
         </div>
         <div className="mt-3 score-tenants-bottom">
-          <img src="./src/assets/score.png" alt="" />
+          <img src={score} alt="loading..." />
         </div>
         <div className="score-text-area">
           <p>880</p>
