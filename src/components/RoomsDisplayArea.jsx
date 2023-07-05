@@ -4,6 +4,9 @@ import FilterAltTwoToneIcon from "@mui/icons-material/FilterAltTwoTone";
 import Pagination from "@mui/material/Pagination";
 import Stack from "@mui/material/Stack";
 import room from "../assets/rooms-img.png";
+import HighlightOffIcon from "@mui/icons-material/HighlightOff";
+import DatePicker from "react-datepicker";
+import CalendarMonthTwoToneIcon from "@mui/icons-material/CalendarMonthTwoTone";
 
 const RoomsDisplayArea = () => {
   return (
@@ -73,7 +76,12 @@ const RoomsDisplayArea = () => {
               >
                 <AddIcon sx={{ color: "#FFF" }} />
               </Link>
-              <button className="btn filter-btn nav-button-side" type="submit">
+              <button
+                className="btn filter-btn nav-button-side"
+                type="submit"
+                data-bs-toggle="modal"
+                data-bs-target="#myModal"
+              >
                 <FilterAltTwoToneIcon sx={{ color: "#FFF" }} />
               </button>
             </div>
@@ -315,6 +323,80 @@ const RoomsDisplayArea = () => {
         </div>
       </div>
 
+      <div class="modal right fade" id="myModal">
+        <div class="modal-dialog">
+          <div class="modal-content">
+            <div class="modal-header">
+              <h4 class="modal-title">Filters</h4>
+              <button type="button" class="btn" data-bs-dismiss="modal">
+                <HighlightOffIcon className="modal-header-close" />
+              </button>
+            </div>
+
+            <div class="modal-body">
+              <div className="my-2">
+                <select
+                  className="form-select select-input-modal"
+                  aria-label="Default select example"
+                >
+                  <option defaultValue>Status</option>
+                  <option value="1">One</option>
+                  <option value="2">Two</option>
+                  <option value="3">Three</option>
+                </select>
+              </div>
+              <div className="my-2">
+                <select
+                  className="form-select select-input-modal"
+                  aria-label="Default select example"
+                >
+                  <option defaultValue>Room size</option>
+                  <option value="1">One</option>
+                  <option value="2">Two</option>
+                  <option value="3">Three</option>
+                </select>
+              </div>
+              <div className="my-2">
+                <div className="modal-inputs-fordate">
+                  <DatePicker
+                    selectsStart
+                    placeholderText="From"
+                    // onKeyDown={(e) => {
+                    //   e.preventDefault();
+                    // }}
+                    className="date-picker-input"
+                  />
+                  <CalendarMonthTwoToneIcon
+                    className="calandar-icons"
+                    style={{ marginLeft: "95px" }}
+                  />
+                </div>
+              </div>
+              <div className="my-2">
+                <div className="modal-inputs-fordate">
+                  <DatePicker
+                    selectsStart
+                    placeholderText="To"
+                    // onKeyDown={(e) => {
+                    //   e.preventDefault();
+                    // }}
+                    className="date-picker-input"
+                  />
+                  <CalendarMonthTwoToneIcon
+                    className="calandar-icons"
+                    style={{ marginLeft: "95px" }}
+                  />
+                </div>
+              </div>
+              <div className="my-2 mt-3">
+                <div className="upload-main">
+                  <div className="upload btn mt-4">Apply</div>
+                </div>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
       {/* card-area-end  */}
 
       {/* card-section-end */}
