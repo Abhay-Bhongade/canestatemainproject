@@ -175,16 +175,16 @@ const PropertyDisplayrArea = () => {
                   <li className="list-group-item border-0">
                     <img
                       className="card-bottom-icon"
-                      src="./src/assets/bed.png"
-                      alt=""
+                      src={bed}
+                      alt="loading....."
                     />
                     <span className="card-bottom-text">3</span>
                   </li>
                   <li className="list-group-item border-0">
                     <img
                       className="card-bottom-icon"
-                      src="./src/assets/basin.png"
-                      alt=""
+                      src={basin}
+                      alt="loading....."
                     />
                     <span className="card-bottom-text">2</span>
                   </li>
@@ -389,16 +389,16 @@ const PropertyDisplayrArea = () => {
                   <li className="list-group-item border-0">
                     <img
                       className="card-bottom-icon"
-                      src="./src/assets/bed.png"
-                      alt=""
+                      src={bed}
+                      alt="loading....."
                     />
                     <span className="card-bottom-text">3</span>
                   </li>
                   <li className="list-group-item border-0">
                     <img
                       className="card-bottom-icon"
-                      src="./src/assets/basin.png"
-                      alt=""
+                      src={basin}
+                      alt="loading....."
                     />
                     <span className="card-bottom-text">2</span>
                   </li>
