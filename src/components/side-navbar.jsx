@@ -1,4 +1,5 @@
 import { Link } from "react-router-dom";
+import mainLogo from "../assets/main-logo.png";
 
 const SideNavbar = () => {
   return (
@@ -9,7 +10,7 @@ const SideNavbar = () => {
       >
         <img
           className="fs-4 d-none d-sm-inline brand-logo"
-          src="./src/assets/main-logo.png"
+          src={mainLogo}
           alt="logo"
         />
       </Link>
