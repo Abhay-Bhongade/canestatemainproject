@@ -563,7 +563,7 @@ h4 {
 .address-details-container {
   /* width: 1029px;
 height: 743px; */
-  padding: 15px 100px !important;
+  padding: 15px 100px;
   flex-shrink: 0;
   border-radius: 30px;
   background: #fff;
@@ -867,6 +867,7 @@ height: 743px; */
 /* galary-area-start */
 .rooms-main-cantainer {
   background-color: #f9fafc !important;
+  padding-bottom: 7rem !important;
 }
 .galary-area-top {
   margin: 77px 0 0 0 !important;

@@ -356,7 +356,10 @@ const StepperFromRooms = () => {
           Thank You
         </Typography>
       ) : (
-        <div className="address-details-container">
+        <div
+          className="address-details-container"
+          style={{ paddingBottom: "3.7rem" }}
+        >
           <form>{getStepContent(activeStep)}</form>
           <div className="address-bottom-btn ">
             {activeStep !== 0 && ( // Check if the activeStep is not the first step
