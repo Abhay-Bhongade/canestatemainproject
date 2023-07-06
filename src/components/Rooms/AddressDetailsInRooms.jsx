@@ -131,6 +131,7 @@ const AddressDetailsInRooms = () => {
           marginLeft: "30%",
           marginTop: "2rem",
           borderRadius: "16px",
+          overflowY: "hidden",
         }}
       >
         <IconButton
@@ -159,7 +160,9 @@ const AddressDetailsInRooms = () => {
           Terms & Conditions
         </DialogTitle>
         <hr />
-        <DialogContent style={{ height: "650px", paddingTop: "0px" }}>
+        <DialogContent
+          style={{ height: "650px", paddingTop: "0px", overflowY: "hidden" }}
+        >
           <DialogTitle
             className="my-1 ms-3"
             style={{
