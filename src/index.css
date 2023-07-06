@@ -35,13 +35,12 @@
 .search-input {
   padding: 0 0 18px 15px;
 }
-.seach-box input.placeholder {
+.seach-box input ::placeholder {
   font-family: "Inter" !important;
   font-style: normal !important;
   font-weight: 400 !important;
   font-size: 18px !important;
   line-height: 22px !important;
-
   color: #000000 !important;
 }
 .nav-button-side {
@@ -2060,4 +2059,19 @@ height: 743px; */
 .homemenu {
   display: flex;
   flex-direction: row;
+}
+
+.propertysearch::placeholder {
+  font-family: "Inter" !important;
+  font-style: normal !important;
+  font-weight: 400 !important;
+  font-size: 18px !important;
+  line-height: 22px !important;
+  color: #000000 !important;
+}
+
+.css-1v0xnyz {
+  display: flex;
+  flex-direction: column;
+  width: 60% !important;
 }

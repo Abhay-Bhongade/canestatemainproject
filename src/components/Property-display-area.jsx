@@ -54,7 +54,7 @@ const PropertyDisplayrArea = () => {
                 </span>
                 <input
                   type="search"
-                  className="form-control hide-focus border-0 search-input"
+                  className="form-control hide-focus border-0 search-input propertysearch"
                   placeholder="Search"
                   aria-label="Username"
                   aria-describedby="basic-addon1"

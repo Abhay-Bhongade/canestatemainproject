@@ -19,7 +19,7 @@ const RoomsGalary = () => {
           </div>
         </div>
       </div>
-      <div className="add-more btn mt-3">Add More Image</div>
+      <div className="add-more btn mt-3">Add More Images</div>
       <div className="upload-main">
         <div className="upload btn mt-3">Upload</div>
       </div>
