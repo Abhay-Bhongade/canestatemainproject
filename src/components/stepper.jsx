@@ -389,6 +389,7 @@ const StepperFrom = () => {
             width: "400px",
             height: "30vh",
             borderRadius: "16px",
+            overflowY:"hidden"
           },
         }}
       >
@@ -400,6 +401,7 @@ const StepperFrom = () => {
             justifyContent: "center",
             alignItems: "center",
             flexDirection: "column",
+            overflowY:"hidden"
           }}
         >
           <DialogTitle className="mb-2">
@@ -460,7 +462,7 @@ const StepperFrom = () => {
             left: "50%",
             transform: "translateX(-50%)",
             width: "400px",
-            height: "30vh",
+            height: "25vh",
             borderRadius: "16px",
           },
         }}
