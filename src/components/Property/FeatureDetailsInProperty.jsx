@@ -205,7 +205,7 @@ const FeatureDetailsInProperty = ({ onCheckboxChange }) => {
               value=""
               id="invalidCheck"
               required
-              onChange={handleCheckboxChange}
+              onChange={(e) => handleCheckboxChange(e)}
             />
             <label
               className="form-check-label second-step-check-labal"

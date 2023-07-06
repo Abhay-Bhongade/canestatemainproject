@@ -1,3 +1,4 @@
+import { useState } from "react";
 import { Link } from "react-router-dom";
 import AddIcon from "@mui/icons-material/Add";
 import FilterAltTwoToneIcon from "@mui/icons-material/FilterAltTwoTone";
@@ -9,6 +10,16 @@ import DatePicker from "react-datepicker";
 import CalendarMonthTwoToneIcon from "@mui/icons-material/CalendarMonthTwoTone";
 
 const RoomsDisplayArea = () => {
+  const [startDate, setStartDate] = useState(null);
+  const [endDate, setEndDate] = useState(null);
+
+  const handleStartDateChange = (date) => {
+    setStartDate(date);
+  };
+
+  const handleEndDateChange = (date) => {
+    setEndDate(date);
+  };
   return (
     <>
       <div className="container-fluid">
@@ -345,7 +356,7 @@ const RoomsDisplayArea = () => {
             </div>
 
             <div class="modal-body">
-              <div className="my-2">
+              <div className="my-3">
                 <select
                   className="form-select select-input-modal"
                   aria-label="Default select example"
@@ -355,7 +366,7 @@ const RoomsDisplayArea = () => {
                   <option value="2">Vaccant</option>
                 </select>
               </div>
-              <div className="my-2">
+              <div className="my-3">
                 <select
                   className="form-select select-input-modal"
                   aria-label="Default select example"
@@ -366,15 +377,17 @@ const RoomsDisplayArea = () => {
                   <option value="3">Large</option>
                 </select>
               </div>
-              <div className="my-2">
+              <div className="my-3">
                 <div className="modal-inputs-fordate">
                   <DatePicker
                     selectsStart
                     placeholderText="From"
-                    // onKeyDown={(e) => {
-                    //   e.preventDefault();
-                    // }}
+                    selected={startDate}
+                    onChange={handleStartDateChange}
                     className="date-picker-input"
+                    onKeyDown={(e) => {
+                      e.preventDefault();
+                    }}
                   />
                   <CalendarMonthTwoToneIcon
                     className="calandar-icons"
@@ -382,15 +395,17 @@ const RoomsDisplayArea = () => {
                   />
                 </div>
               </div>
-              <div className="my-2">
+              <div className="my-3">
                 <div className="modal-inputs-fordate">
                   <DatePicker
-                    selectsStart
+                    selectsEnd
                     placeholderText="To"
-                    // onKeyDown={(e) => {
-                    //   e.preventDefault();
-                    // }}
+                    selected={endDate}
+                    onChange={handleEndDateChange}
                     className="date-picker-input"
+                    onKeyDown={(e) => {
+                      e.preventDefault();
+                    }}
                   />
                   <CalendarMonthTwoToneIcon
                     className="calandar-icons"
@@ -398,7 +413,7 @@ const RoomsDisplayArea = () => {
                   />
                 </div>
               </div>
-              <div className="my-2 mt-3">
+              <div className="my-3 mt-3">
                 <div className="upload-main">
                   <div className="upload btn mt-4">Apply</div>
                 </div>

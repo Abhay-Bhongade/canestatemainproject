@@ -155,9 +155,9 @@ const AddressDetailsInProperty = () => {
               aria-label="Default select example"
             >
               <option selected>Landlord Name</option>
-              <option value="1">One</option>
-              <option value="2">Two</option>
-              <option value="3">Three</option>
+              <option value="1">Jack</option>
+              <option value="2">Smith</option>
+              <option value="3">Harry</option>
             </select>
           </div>
           <div className="col-md-12 address-form-check-top">

@@ -1,3 +1,4 @@
+import { useState } from "react";
 import { Link } from "react-router-dom";
 import AddIcon from "@mui/icons-material/Add";
 import FilterAltTwoToneIcon from "@mui/icons-material/FilterAltTwoTone";
@@ -12,6 +13,16 @@ import DatePicker from "react-datepicker";
 import CalendarMonthTwoToneIcon from "@mui/icons-material/CalendarMonthTwoTone";
 
 const PropertyDisplayrArea = () => {
+  const [startDate, setStartDate] = useState(null);
+  const [endDate, setEndDate] = useState(null);
+
+  const handleStartDateChange = (date) => {
+    setStartDate(date);
+  };
+
+  const handleEndDateChange = (date) => {
+    setEndDate(date);
+  };
   return (
     <>
       <div className="container-fluid">
@@ -585,10 +596,12 @@ const PropertyDisplayrArea = () => {
                   <DatePicker
                     selectsStart
                     placeholderText="From"
-                    // onKeyDown={(e) => {
-                    //   e.preventDefault();
-                    // }}
+                    selected={startDate}
+                    onChange={handleStartDateChange}
                     className="date-picker-input"
+                    onKeyDown={(e) => {
+                      e.preventDefault();
+                    }}
                   />
                   <CalendarMonthTwoToneIcon
                     className="calandar-icons"
@@ -599,12 +612,14 @@ const PropertyDisplayrArea = () => {
               <div className="my-3">
                 <div className="modal-inputs-fordate">
                   <DatePicker
-                    selectsStart
+                    selectsEnd
                     placeholderText="To"
-                    // onKeyDown={(e) => {
-                    //   e.preventDefault();
-                    // }}
+                    selected={endDate}
+                    onChange={handleEndDateChange}
                     className="date-picker-input"
+                    onKeyDown={(e) => {
+                      e.preventDefault();
+                    }}
                   />
                   <CalendarMonthTwoToneIcon
                     className="calandar-icons"
