@@ -701,7 +701,7 @@ height: 743px; */
   flex-shrink: 0;
   border-radius: 10px;
   border: 0.5px solid rgba(151, 151, 151, 0.5) !important;
-
+  padding-left: 20px;
   color: #000;
   font-size: 12px;
 }
@@ -1349,7 +1349,7 @@ ul li {
   /* right: -320px; */
   /* right: 350px; */
   padding: 35px 45px;
-  left: 915px;
+  right: 0;
   position: fixed;
   margin: auto;
   width: 450px;
@@ -2083,4 +2083,12 @@ height: 743px; */
 
 .css-sghohy-MuiButtonBase-root-MuiButton-root {
   text-transform: unset !important;
+}
+
+.bg-light {
+  background-color: #f8f9fa !important;
+  padding-bottom: 7% !important;
+}
+.pagination-area {
+  margin-top: 2rem !important;
 }
