@@ -1,4 +1,4 @@
-import React from "react";
+import React, { useState, useRef } from "react";
 import "react-datepicker/dist/react-datepicker.css";
 import DatePicker from "react-datepicker";
 import CalendarMonthTwoToneIcon from "@mui/icons-material/CalendarMonthTwoTone";
@@ -59,7 +59,16 @@ const IOSSwitch = styled((props) => (
 }));
 const RentDetailsInRooms = () => {
   const label = { inputProps: { "aria-label": "Switch demo" } };
+  const [selectedDate, setSelectedDate] = useState(null);
+  const datePickerRef = useRef();
 
+  const handleDateChange = (date) => {
+    setSelectedDate(date);
+  };
+
+  const handleCalendarIconClick = () => {
+    datePickerRef.current.setFocus();
+  };
   return (
     <div className="card border-0" style={{ width: "32rem" }}>
       <h3 className="mt-3 mb-5 headingcombine">Rent Details</h3>
@@ -90,15 +99,17 @@ const RentDetailsInRooms = () => {
         </div>
         <div className="mini-inputs-fordate">
           <DatePicker
+            ref={datePickerRef}
             selectsStart
             placeholderText="Move in Date"
-            // onKeyDown={(e) => {
-            //   e.preventDefault();
-            // }}
             className="date-picker-input"
+            selected={selectedDate}
+            onChange={handleDateChange}
           />
+
           <CalendarMonthTwoToneIcon
             className="calandar-icons"
+            onClick={handleCalendarIconClick}
             style={{ marginLeft: "6px" }}
           />
         </div>
