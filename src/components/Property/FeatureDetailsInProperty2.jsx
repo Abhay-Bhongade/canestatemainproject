@@ -171,10 +171,11 @@ const FeatureDetailsInProperty2 = ({ onCheckboxChange }) => {
                 <input
                   className="form-check-input check-input"
                   type="checkbox"
-                  value=""
+                  value="true"
                   id="invalidCheck"
                   required
                   onChange={handleCheckboxChange}
+                  checked
                 />
                 <label className="form-check-label" htmlFor="invalidCheck">
                   You can split the house into rooms where you can earn
