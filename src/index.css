@@ -610,7 +610,6 @@ height: 743px; */
 }
 .text-rent-mini p {
   /* padding: 0; */
-  padding: 0 0 0 20px;
   margin: 0;
   font-size: 12px !important;
   color: #000000;
@@ -2073,5 +2072,15 @@ height: 743px; */
 .css-1v0xnyz {
   display: flex;
   flex-direction: column;
-  width: 60% !important;
+  width: 50% !important;
+}
+.css-uhb5lp {
+  border-radius: 16px !important;
+}
+.ulinmodalbox li {
+  line-height: 15px;
+}
+
+.css-sghohy-MuiButtonBase-root-MuiButton-root {
+  text-transform: unset !important;
 }

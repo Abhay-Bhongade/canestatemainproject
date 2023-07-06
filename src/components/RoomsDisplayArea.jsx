@@ -351,9 +351,8 @@ const RoomsDisplayArea = () => {
                   aria-label="Default select example"
                 >
                   <option defaultValue>Status</option>
-                  <option value="1">One</option>
-                  <option value="2">Two</option>
-                  <option value="3">Three</option>
+                  <option value="1">Occupied</option>
+                  <option value="2">Vaccant</option>
                 </select>
               </div>
               <div className="my-2">
@@ -362,9 +361,9 @@ const RoomsDisplayArea = () => {
                   aria-label="Default select example"
                 >
                   <option defaultValue>Room size</option>
-                  <option value="1">One</option>
-                  <option value="2">Two</option>
-                  <option value="3">Three</option>
+                  <option value="1">Small</option>
+                  <option value="2">Medium</option>
+                  <option value="3">Large</option>
                 </select>
               </div>
               <div className="my-2">

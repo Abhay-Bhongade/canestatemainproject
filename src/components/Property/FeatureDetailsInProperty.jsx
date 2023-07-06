@@ -195,7 +195,7 @@ const FeatureDetailsInProperty = ({ onCheckboxChange }) => {
             />
             <FormControlLabel
               control={<IOSSwitch sx={{ m: 1 }} defaultChecked />}
-              label="Pets Allow"
+              label="Pets allowed"
             />
           </div>
           <div className="form-check address-form-check  second-step-from-check mt-3">

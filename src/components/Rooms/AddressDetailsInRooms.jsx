@@ -149,7 +149,7 @@ const AddressDetailsInRooms = () => {
         </IconButton>
 
         <DialogTitle
-          className=""
+          className="ms-3"
           style={{
             textAlign: "left",
             fontWeight: "700",
@@ -159,9 +159,9 @@ const AddressDetailsInRooms = () => {
           Terms & Conditions
         </DialogTitle>
         <hr />
-        <DialogContent style={{ height: "500px", paddingTop: "0px" }}>
+        <DialogContent style={{ height: "650px", paddingTop: "0px" }}>
           <DialogTitle
-            className="my-1"
+            className="my-1 ms-3"
             style={{
               textAlign: "left",
               fontWeight: "700",
@@ -171,7 +171,7 @@ const AddressDetailsInRooms = () => {
           >
             In contract Law, Terms means Terms
           </DialogTitle>
-          <ul>
+          <ul className="ulinmodalbox">
             <li>
               In Contract Law, Terms means Terms of a Contract, the conditions
               and warranties agreed upon between parties to the contract.
@@ -214,7 +214,7 @@ const AddressDetailsInRooms = () => {
           >
             <Button
               variant="contained"
-              className="mt-2 okaybtn px-5  okaybtninrooms"
+              className="mt-2 okaybtn"
               type="submit"
               onClick={handleCloseVerificationDialog}
             >
