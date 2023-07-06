@@ -7,6 +7,7 @@ const PropertyGalary = () => {
     React.createRef(),
     React.createRef(),
     React.createRef(),
+    React.createRef(), // Add null reference for upload button file input
   ]);
 
   const handleImageClick = (index) => {
@@ -17,6 +18,21 @@ const PropertyGalary = () => {
     const file = event.target.files[0];
     const updatedSelectedImages = [...selectedImages];
     updatedSelectedImages[index] = URL.createObjectURL(file);
+    setSelectedImages(updatedSelectedImages);
+  };
+
+  const handleUpload = () => {
+    fileInputRefs.current[3]?.current?.click(); // Use optional chaining to avoid error
+  };
+
+  const handleUploadChange = (event) => {
+    const files = event.target.files;
+    const updatedSelectedImages = [...selectedImages];
+    for (let i = 0; i < files.length; i++) {
+      if (i < 3) {
+        updatedSelectedImages[i] = URL.createObjectURL(files[i]);
+      }
+    }
     setSelectedImages(updatedSelectedImages);
   };
 
@@ -73,9 +89,18 @@ const PropertyGalary = () => {
           </div>
         </div>
       </div>
-      <div className="add-more btn mt-4">Add More Images</div>
       <div className="upload-main">
-        <div className="upload btn mt-4">Upload</div>
+        <input
+          type="file"
+          accept="image/*"
+          multiple
+          onChange={handleUploadChange}
+          ref={fileInputRefs.current[3]}
+          style={{ display: "none" }}
+        />
+        <div className="upload btn mt-4" onClick={handleUpload}>
+          Upload
+        </div>
       </div>
     </div>
   );

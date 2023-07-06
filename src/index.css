@@ -236,6 +236,7 @@
   justify-content: center;
   /* width: 250px; */
   height: 191px;
+  height: 211px;
 
   background: #eeeeee;
   border-radius: 20px;
@@ -258,7 +259,7 @@
   justify-content: center;
   width: 150px;
   height: 80px;
-
+  height: 100px;
   background: #eeeeee;
   border-radius: 15px;
 }
@@ -2096,9 +2097,23 @@ height: 743px; */
 .big-img img {
   height: 100%;
   width: 100%;
+  border-radius: 10px;
 }
 
 .mini-img-1 img {
   height: 100%;
   width: 100%;
+  border-radius: 10px;
+}
+
+.MuiButtonBase-root
+  .MuiPaginationItem-root
+  .MuiPaginationItem-sizeMedium
+  .MuiPaginationItem-outlined
+  .MuiPaginationItem-rounded
+  .MuiPaginationItem-previousNext
+  .css-2gftvx {
+  background-color: #db1516 !important;
+  color: #fff !important;
+  border: none !important;
 }

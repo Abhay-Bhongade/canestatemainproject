@@ -610,7 +610,7 @@ const PropertyDisplayrArea = () => {
                 </div>
               </div>
               <div className="my-3">
-                <div className="modal-inputs-fordate">
+                <div className="modal-inputs-fordate" >
                   <DatePicker
                     selectsEnd
                     placeholderText="To"
