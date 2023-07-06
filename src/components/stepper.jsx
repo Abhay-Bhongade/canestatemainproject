@@ -496,6 +496,7 @@ const StepperFrom = () => {
                   borderWidth: "1px",
                   width: "140px",
                   borderRadius: "10px",
+                  textTransform: "initial",
                 }}
               >
                 Skip

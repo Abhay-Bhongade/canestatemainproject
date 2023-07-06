@@ -441,30 +441,11 @@ h4 {
   background: #ff0000;
   border-radius: 10px;
 }
-.icon-container img:nth-child(1) {
-  width: 35px;
-}
-.icon-container img:nth-child(2) {
-  width: 58px;
-}
-.icon-container img:nth-child(2) {
-  display: none;
-}
 
-.icon-container:hover img:nth-child(1) {
-  display: none;
-  transition: all 2 ease;
-}
-
-.icon-container:hover img:nth-child(2) {
-  display: block;
-  /* transition: all 1s ; */
-}
 .icon-container {
   margin: 0 !important;
   padding: 0 !important;
 }
-
 .brand-logo {
   width: 75px;
 }
@@ -472,7 +453,8 @@ h4 {
   display: flex;
   align-items: center;
   justify-content: center;
-  padding: 10px 0 0 0;
+  padding: 0px;
+  flex-direction: column;
 }
 
 .top-nav-li {
@@ -2239,4 +2221,32 @@ height: 743px; */
 
 .css-1hw9j7s {
   text-transform: initial !important;
+}
+
+.propertyimg {
+  width: 52px !important;
+  height: 35px !important;
+  margin-left: -3px !important;
+}
+.spaninsidenav {
+  font-weight: 500;
+  letter-spacing: 1px;
+  margin-top: -0.45rem;
+  color: #000;
+  opacity: 0; /* Set the initial opacity to hide the element */
+  transition: opacity 0.3s; /* Add a transition effect for smooth fade-in/out */
+}
+
+.side-nav-item11:hover .spaninsidenav,
+.side-nav-item12:hover .spaninsidenav,
+.side-nav-item13:hover .spaninsidenav,
+.side-nav-item14:hover .spaninsidenav,
+.side-nav-item15:hover .spaninsidenav,
+.side-nav-item16:hover .spaninsidenav,
+.side-nav-item17:hover .spaninsidenav,
+.side-nav-item18:hover .spaninsidenav,
+.side-nav-item19:hover .spaninsidenav,
+.side-nav-item20:hover .spaninsidenav,
+.side-nav-item21:hover .spaninsidenav {
+  opacity: 1;
 }
