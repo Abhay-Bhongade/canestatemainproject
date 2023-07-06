@@ -1207,23 +1207,6 @@ ul li {
   background-color: #fff !important;
   border: 1px solid #db1516 !important;
 }
-.switch-icon .css-julti5-MuiSwitch-root {
-  display: -webkit-inline-box;
-  display: -webkit-inline-flex;
-  display: -ms-inline-flexbox;
-  display: inline-flex;
-  width: 58px !important;
-  height: 40px !important;
-  overflow: hidden;
-  padding: 12px;
-  box-sizing: border-box;
-  position: relative;
-  -webkit-flex-shrink: 0;
-  -ms-flex-negative: 0;
-  flex-shrink: 0;
-  z-index: 0;
-  vertical-align: middle;
-}
 .switch-icon .css-5ryogn-MuiButtonBase-root-MuiSwitch-switchBase {
   padding: 12.8px 12px 12.8px !important;
 }
@@ -1240,12 +1223,16 @@ ul li {
   border-radius: 50%;
 }
 .swich-area
+  .mini-switch
   .css-5ryogn-MuiButtonBase-root-MuiSwitch-switchBase.Mui-checked
   + .MuiSwitch-track {
   background-color: #fff !important;
   border: 1px solid #db1516 !important;
 }
-.swich-area .css-julti5-MuiSwitch-root {
+.swich-area .css-5ryogn-MuiButtonBase-root-MuiSwitch-switchBase.Mui-checked {
+  color: #db1516 !important;
+}
+.swich-area .mini-switch .css-julti5-MuiSwitch-root {
   display: -webkit-inline-box;
   display: -webkit-inline-flex;
   display: -ms-inline-flexbox;
@@ -1266,7 +1253,7 @@ ul li {
   padding: 12.8px 12px 12.8px !important;
 }
 /* pagination css */
-.MuiPaginationItem-previousNext.css-19xm0h7-MuiButtonBase-root-MuiPaginationItem-root {
+/* .MuiPaginationItem-previousNext.css-19xm0h7-MuiButtonBase-root-MuiPaginationItem-root {
   background-color: #db1516 !important;
   background-color: #db1516 !important ;
   color: #fff !important;
@@ -1281,7 +1268,7 @@ ul li {
   background-color: #e4e4e4 !important;
   border: none !important;
   color: #000 !important;
-}
+} */
 /* abhay-sir-code-css-end */
 
 /* redio-css */
