@@ -59,6 +59,7 @@ const IOSSwitch = styled((props) => (
     }),
   },
 }));
+
 const RentDetailsInProperty = () => {
   const label = { inputProps: { "aria-label": "Switch demo" } };
 
