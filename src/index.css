@@ -2219,3 +2219,20 @@ height: 743px; */
   height: 14px !important;
   border-radius: 50%;
 }
+.css-1rwt2y5-MuiButtonBase-root-MuiButton-root {
+  text-transform: unset !important;
+}
+
+@media (min-width: 1441px) {
+  .address-input {
+    width: 531px !important;
+  }
+  .select-input {
+    width: 531px !important;
+  }
+}
+
+.css-1t1j96h-MuiPaper-root-MuiDialog-paper {
+  height: 80vh !important;
+  max-height: unset !important;
+}

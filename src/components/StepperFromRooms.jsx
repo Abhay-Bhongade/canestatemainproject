@@ -427,18 +427,6 @@ const StepperFromRooms = () => {
             }}
           >
             Your Room Has Been{" "}
-            <span
-              style={{
-                textAlign: "left",
-                fontWeight: "700",
-                fontSize: "1rem",
-                padding: "0px",
-                color: "#41A728",
-                letterSpacing: "1px",
-              }}
-            >
-              Saved
-            </span>
           </DialogContentText>
           <DialogContentText
             className=""
@@ -451,7 +439,7 @@ const StepperFromRooms = () => {
               letterSpacing: "1px",
             }}
           >
-            Successfully
+            Saved Successfully
           </DialogContentText>
         </DialogContent>
       </Dialog>

@@ -22,6 +22,7 @@ import ContratoreLogo from "../assets/icon-10.png";
 import ContratoreHoverLogo from "../assets/contractor-hover.png";
 import InquiresLogo from "../assets/icon-11.png";
 import InquiresHoverLogo from "../assets/Inquires-hover.png";
+import roomshoverrnew from "../assets/roomshoverrnew.png"
 
 const SideNavbar = () => {
   return (
@@ -60,7 +61,7 @@ const SideNavbar = () => {
         <li className="nav-item side-nav-item ">
           <Link to="/rooms" className="nav-link icon-container">
             <img src={RoomsLogo} alt="" />
-            <img src={RoomsHoverLogo} alt="" />
+            <img src={roomshoverrnew} alt="" />
           </Link>
         </li>
 
