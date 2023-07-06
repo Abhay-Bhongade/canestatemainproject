@@ -2146,7 +2146,7 @@ height: 743px; */
   border-radius: 50%;
 } */
 
-.css-1nr2wod {
+/* .css-1nr2wod {
   padding: 12.8px 12px 12.8px !important;
   display: inline-flex;
   -webkit-box-align: center;
@@ -2163,9 +2163,9 @@ height: 743px; */
   user-select: none;
   vertical-align: middle;
   appearance: none;
-  text-decoration: none;
-  /* padding: 9px; */
-  border-radius: 50%;
+  text-decoration: none; */
+/* padding: 9px; */
+/* border-radius: 50%;
   position: absolute;
   top: 0px;
   left: 0px;
@@ -2173,7 +2173,7 @@ height: 743px; */
   color: rgb(255, 255, 255);
   transition: left 150ms cubic-bezier(0.4, 0, 0.2, 1) 0ms,
     transform 150ms cubic-bezier(0.4, 0, 0.2, 1) 0ms;
-}
+} */
 .css-1nr2wod {
   padding: 12.8px 12px 12.8px !important;
   display: inline-flex;
