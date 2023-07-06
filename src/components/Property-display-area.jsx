@@ -70,7 +70,18 @@ const PropertyDisplayrArea = () => {
                 >
                   Sort by
                 </button>
-                <ul className="dropdown-menu">...</ul>
+                <ul class="dropdown-menu" aria-labelledby="dropdownMenuButton1">
+                  <li>
+                    <a class="dropdown-item" href="#">
+                      Latest
+                    </a>
+                  </li>
+                  <li>
+                    <a class="dropdown-item" href="#">
+                      Oldest
+                    </a>
+                  </li>
+                </ul>
               </div>
               <Link
                 to="/addproperty"
@@ -549,7 +560,7 @@ const PropertyDisplayrArea = () => {
             </div>
 
             <div class="modal-body">
-              <div className="my-2">
+              <div className="my-3">
                 <select
                   className="form-select select-input-modal"
                   aria-label="Default select example"
@@ -560,7 +571,7 @@ const PropertyDisplayrArea = () => {
                   <option value="3">Three</option>
                 </select>
               </div>
-              <div className="my-2">
+              <div className="my-3">
                 <select
                   className="form-select select-input-modal"
                   aria-label="Default select example"
@@ -571,7 +582,7 @@ const PropertyDisplayrArea = () => {
                   <option value="3">Three</option>
                 </select>
               </div>
-              <div className="my-2">
+              <div className="my-3">
                 <div className="modal-inputs-fordate">
                   <DatePicker
                     selectsStart
@@ -587,7 +598,7 @@ const PropertyDisplayrArea = () => {
                   />
                 </div>
               </div>
-              <div className="my-2">
+              <div className="my-3">
                 <div className="modal-inputs-fordate">
                   <DatePicker
                     selectsStart
@@ -603,7 +614,7 @@ const PropertyDisplayrArea = () => {
                   />
                 </div>
               </div>
-              <div className="my-2 mt-3">
+              <div className="my-3 mt-3">
                 <div className="upload-main">
                   <div className="upload btn mt-4">Apply</div>
                 </div>

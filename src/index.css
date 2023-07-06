@@ -589,7 +589,7 @@ height: 743px; */
 }
 .address-input {
   padding-left: 20px;
-  width: 482px !important;
+  width: 482px;
   height: 35px !important ;
   border-radius: 10px !important;
   border: 0.5px solid #979797 !important;
@@ -677,7 +677,7 @@ height: 743px; */
   text-transform: capitalize;
 }
 .select-input {
-  width: 482px !important;
+  width: 482px;
   height: 35px !important;
   flex-shrink: 0;
   border-radius: 10px;

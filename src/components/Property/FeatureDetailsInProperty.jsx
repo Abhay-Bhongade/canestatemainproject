@@ -107,6 +107,7 @@ const FeatureDetailsInProperty = ({ onCheckboxChange }) => {
 
         <div className="mt-3">
           <input
+            style={{ width: "498px" }}
             type="text"
             className="form-control address-input"
             placeholder="Add Property Name"

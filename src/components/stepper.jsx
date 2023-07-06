@@ -392,21 +392,6 @@ const StepperFrom = () => {
           },
         }}
       >
-        <IconButton
-          aria-label="close"
-          onClick={handleCloseSuccessDialog}
-          sx={{
-            position: "absolute",
-            right: "8px",
-            top: "8px",
-            backgroundColor: "grey",
-            width: "25px",
-            height: "25px",
-          }}
-        >
-          <CloseIcon sx={{ color: "white", fontSize: "16px" }} />
-        </IconButton>
-
         <DialogContent
           style={{
             height: "500px",
@@ -480,21 +465,6 @@ const StepperFrom = () => {
           },
         }}
       >
-        <IconButton
-          aria-label="close"
-          onClick={handleCloseSuccessDialog}
-          sx={{
-            position: "absolute",
-            right: "8px",
-            top: "8px",
-            backgroundColor: "grey",
-            width: "25px",
-            height: "25px",
-          }}
-        >
-          <CloseIcon sx={{ color: "white", fontSize: "16px" }} />
-        </IconButton>
-
         <DialogContent
           style={{
             height: "500px",

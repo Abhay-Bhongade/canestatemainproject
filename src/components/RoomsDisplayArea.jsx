@@ -67,7 +67,18 @@ const RoomsDisplayArea = () => {
                 >
                   Sort by
                 </button>
-                <ul className="dropdown-menu">...</ul>
+                <ul class="dropdown-menu" aria-labelledby="dropdownMenuButton1">
+                  <li>
+                    <a class="dropdown-item" href="#">
+                      Latest
+                    </a>
+                  </li>
+                  <li>
+                    <a class="dropdown-item" href="#">
+                      Oldest
+                    </a>
+                  </li>
+                </ul>
               </div>
               <Link
                 to="/addroom"
