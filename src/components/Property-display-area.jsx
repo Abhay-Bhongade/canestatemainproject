@@ -1,4 +1,4 @@
-import { useState } from "react";
+import React, { useState, useRef } from 'react';
 import { Link } from "react-router-dom";
 import AddIcon from "@mui/icons-material/Add";
 import FilterAltTwoToneIcon from "@mui/icons-material/FilterAltTwoTone";
@@ -15,6 +15,8 @@ import CalendarMonthTwoToneIcon from "@mui/icons-material/CalendarMonthTwoTone";
 const PropertyDisplayrArea = () => {
   const [startDate, setStartDate] = useState(null);
   const [endDate, setEndDate] = useState(null);
+  const startDatePickerRef = useRef();
+  const endDatePickerRef = useRef();
 
   const handleStartDateChange = (date) => {
     setStartDate(date);
@@ -22,6 +24,14 @@ const PropertyDisplayrArea = () => {
 
   const handleEndDateChange = (date) => {
     setEndDate(date);
+  };
+
+  const handleStartCalendarIconClick = () => {
+    startDatePickerRef.current.setFocus();
+  };
+
+  const handleEndCalendarIconClick = () => {
+    endDatePickerRef.current.setFocus();
   };
   return (
     <>
@@ -594,6 +604,7 @@ const PropertyDisplayrArea = () => {
               <div className="my-3">
                 <div className="modal-inputs-fordate">
                   <DatePicker
+                    ref={startDatePickerRef}
                     selectsStart
                     placeholderText="From"
                     selected={startDate}
@@ -605,13 +616,15 @@ const PropertyDisplayrArea = () => {
                   />
                   <CalendarMonthTwoToneIcon
                     className="calandar-icons"
-                    style={{ marginLeft: "95px" }}
+                    style={{ marginLeft: "95px", cursor: "pointer" }}
+                    onClick={handleStartCalendarIconClick}
                   />
                 </div>
               </div>
               <div className="my-3">
-                <div className="modal-inputs-fordate" >
+                <div className="modal-inputs-fordate">
                   <DatePicker
+                    ref={endDatePickerRef}
                     selectsEnd
                     placeholderText="To"
                     selected={endDate}
@@ -623,7 +636,8 @@ const PropertyDisplayrArea = () => {
                   />
                   <CalendarMonthTwoToneIcon
                     className="calandar-icons"
-                    style={{ marginLeft: "95px" }}
+                    style={{ marginLeft: "95px", cursor: "pointer" }}
+                    onClick={handleEndCalendarIconClick}
                   />
                 </div>
               </div>

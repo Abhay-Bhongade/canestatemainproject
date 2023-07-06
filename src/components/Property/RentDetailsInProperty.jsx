@@ -1,4 +1,4 @@
-import React from "react";
+import React, { useState, useRef } from "react";
 import CalendarMonthIcon from "@mui/icons-material/CalendarMonth";
 import GpsFixedIcon from "@mui/icons-material/GpsFixed";
 import CalendarMonthTwoToneIcon from "@mui/icons-material/CalendarMonthTwoTone";
@@ -7,10 +7,18 @@ import "react-datepicker/dist/react-datepicker.css";
 import DatePicker from "react-datepicker";
 import { styled } from "@mui/material";
 
-
-
 const RentDetailsInProperty = () => {
   const label = { inputProps: { "aria-label": "Switch demo" } };
+  const [selectedDate, setSelectedDate] = useState(null);
+  const datePickerRef = useRef();
+
+  const handleDateChange = (date) => {
+    setSelectedDate(date);
+  };
+
+  const handleCalendarIconClick = () => {
+    datePickerRef.current.setFocus();
+  };
 
   return (
     <>
@@ -45,42 +53,22 @@ const RentDetailsInProperty = () => {
           </div>
           <div className="mini-inputs-fordate">
             <DatePicker
+              ref={datePickerRef}
               selectsStart
               placeholderText="Move in Date"
-              // onKeyDown={(e) => {
-              //   e.preventDefault();
-              // }}
               className="date-picker-input"
+              selected={selectedDate}
+              onChange={handleDateChange}
             />
             <CalendarMonthTwoToneIcon
               className="calandar-icons"
-              style={{ marginLeft: "6px" }}
+              onClick={handleCalendarIconClick}
             />
           </div>
         </div>
 
         <div className="twoinputcnt my-2">
-          {/* <div className="search-container">
-                <input
-                  type="text"
-                  className="address-input form-control "
-                  placeholder="Enter Address"
-                />
-                <div className="address-btn">
-                  <GpsFixedTwoToneIcon
-                    sx={{ fontSize: "18px", fontWeight: 100 }}
-                  />
-                </div>
-              </div> */}
           <div className="mini-input-switch-container">
-            {/* <input
-                  type="text"
-                  className="form-control mini-inputs-rent"
-                  placeholder="Property Availability"
-                />
-                <div className="switch-icon">
-                  <Switch className="mini-switch" {...label} defaultChecked />
-                </div> */}
             <div className="mini-inputs-rent">
               <div className="text-rent-mini">
                 <p>Property Availability</p>
