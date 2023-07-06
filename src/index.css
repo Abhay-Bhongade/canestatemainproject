@@ -2174,7 +2174,8 @@ height: 743px; */
   transition: left 150ms cubic-bezier(0.4, 0, 0.2, 1) 0ms,
     transform 150ms cubic-bezier(0.4, 0, 0.2, 1) 0ms;
 } */
-.css-1nr2wod {
+
+.switch-icon .switch-area .css-1nr2wod {
   padding: 12.8px 12px 12.8px !important;
   display: inline-flex;
   -webkit-box-align: center;
@@ -2217,7 +2218,4 @@ height: 743px; */
   width: 14px !important;
   height: 14px !important;
   border-radius: 50%;
-}
-.switch-icon .css-1nr2wod {
-  padding: 11.8px 11px 16.8px !important;
 }
