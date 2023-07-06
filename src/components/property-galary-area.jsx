@@ -2,16 +2,22 @@ import React, { useState, useRef } from "react";
 import bigUnion from "../assets/big-Union.png";
 
 const PropertyGalary = () => {
-  const [selectedImage, setSelectedImage] = useState(null);
-  const fileInputRef = useRef(null);
+  const [selectedImages, setSelectedImages] = useState([null, null, null]);
+  const fileInputRefs = useRef([
+    React.createRef(),
+    React.createRef(),
+    React.createRef(),
+  ]);
 
-  const handleImageClick = () => {
-    fileInputRef.current.click();
+  const handleImageClick = (index) => {
+    fileInputRefs.current[index].current.click();
   };
 
-  const handleImageChange = (event) => {
+  const handleImageChange = (event, index) => {
     const file = event.target.files[0];
-    setSelectedImage(URL.createObjectURL(file));
+    const updatedSelectedImages = [...selectedImages];
+    updatedSelectedImages[index] = URL.createObjectURL(file);
+    setSelectedImages(updatedSelectedImages);
   };
 
   return (
@@ -20,32 +26,50 @@ const PropertyGalary = () => {
         Gallery
       </h3>
       <div className="big-img">
-        {selectedImage ? (
-          <img src={selectedImage} alt="Selected" onClick={handleImageClick} />
-        ) : (
-          <img
-            src={bigUnion}
-            alt="loading...."
-            onClick={handleImageClick}
-          />
-        )}
+        <img
+          src={selectedImages[0] || bigUnion}
+          alt="Image 1"
+          onClick={() => handleImageClick(0)}
+        />
         <input
           type="file"
           accept="image/*"
-          onChange={handleImageChange}
-          ref={fileInputRef}
+          onChange={(e) => handleImageChange(e, 0)}
+          ref={fileInputRefs.current[0]}
           style={{ display: "none" }}
         />
       </div>
       <div className="row grop-img pt-4">
         <div className="col-sm-6">
           <div className="mini-img-1">
-            <img src={bigUnion} alt="loading...." />
+            <img
+              src={selectedImages[1] || bigUnion}
+              alt="Image 2"
+              onClick={() => handleImageClick(1)}
+            />
+            <input
+              type="file"
+              accept="image/*"
+              onChange={(e) => handleImageChange(e, 1)}
+              ref={fileInputRefs.current[1]}
+              style={{ display: "none" }}
+            />
           </div>
         </div>
         <div className="col-sm-6">
           <div className="mini-img-1">
-            <img src={bigUnion} alt="loading...." />
+            <img
+              src={selectedImages[2] || bigUnion}
+              alt="Image 3"
+              onClick={() => handleImageClick(2)}
+            />
+            <input
+              type="file"
+              accept="image/*"
+              onChange={(e) => handleImageChange(e, 2)}
+              ref={fileInputRefs.current[2]}
+              style={{ display: "none" }}
+            />
           </div>
         </div>
       </div>

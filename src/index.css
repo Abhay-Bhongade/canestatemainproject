@@ -2093,3 +2093,12 @@ height: 743px; */
 .pagination-area {
   margin-top: 2rem !important;
 }
+.big-img img {
+  height: 100%;
+  width: 100%;
+}
+
+.mini-img-1 img {
+  height: 100%;
+  width: 100%;
+}
