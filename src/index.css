@@ -2216,6 +2216,9 @@ height: 743px; */
   .select-input {
     width: 531px !important;
   }
+  .teinforhigher {
+    padding-right: 1.5rem !important;
+  }
 }
 
 .css-19xm0h7-MuiButtonBase-root-MuiPaginationItem-root.Mui-selected {

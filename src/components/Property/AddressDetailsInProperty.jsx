@@ -45,7 +45,7 @@ const AddressDetailsInProperty = () => {
         <div className="row">
           <h3 className="address-heading mt-2">Address Details</h3>
           <div className="col-md-12 mt-3">
-            <div className="text-end">
+            <div className="text-end teinforhigher">
               <AddCircleOutlineIcon
                 color="error"
                 sx={{ fontSize: "20px", Padding: "0 0 2px 0" }}
