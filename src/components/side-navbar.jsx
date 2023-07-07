@@ -3,7 +3,9 @@ import React, { useState } from "react";
 import { Link } from "react-router-dom";
 import mainLogo from "../assets/main-logo.png";
 import landlord from "../assets/landlord.svg";
+import landlordss from "../assets/landlordss.svg";
 import room from "../assets/rooms.svg";
+import roooms from "../assets/rooom.svg";
 
 const SideNavbar = () => {
   const [changeIcon, setChangeIcon] = useState("");
@@ -147,7 +149,7 @@ const SideNavbar = () => {
             onClick={Landlord_Handle}
           >
             {changeIcon === "Landlord" ? (
-              <img src={landlord} alt="loading" width={50} height={50} />
+              <img src={landlordss} alt="loading" width={50} height={50} />
             ) : (
               <img src={landlord} alt="loading" width={50} height={50} />
             )}
@@ -279,7 +281,7 @@ const SideNavbar = () => {
         >
           <Link to="/rooms" className="nav-link icon-container">
             {changeIcon === "Rooms" ? (
-              <img src={room} alt="loading" width={50} height={50} />
+              <img src={roooms} alt="loading" width={50} height={50} />
             ) : (
               <img src={room} alt="loading" width={50} height={50} />
             )}
