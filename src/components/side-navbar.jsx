@@ -63,8 +63,8 @@ const SideNavbar = () => {
             {changeIcon === "Dashboard" ? (
               <svg
                 xmlns="http://www.w3.org/2000/svg"
-                width="65"
-                height="65"
+                width="50"
+                height="50"
                 viewBox="0 0 83 50"
                 fill="none"
               >
@@ -101,8 +101,8 @@ const SideNavbar = () => {
             ) : (
               <svg
                 xmlns="http://www.w3.org/2000/svg"
-                width="65"
-                height="65"
+                width="50"
+                height="50"
                 viewBox="0 0 83 50"
                 fill="none"
               >
@@ -147,9 +147,9 @@ const SideNavbar = () => {
             onClick={Landlord_Handle}
           >
             {changeIcon === "Landlord" ? (
-              <img src={landlord} alt="loading" width={65} height={65} />
+              <img src={landlord} alt="loading" width={50} height={50} />
             ) : (
-              <img src={landlord} alt="loading" width={65} height={65} />
+              <img src={landlord} alt="loading" width={50} height={50} />
             )}
           </Link>
           <spna className="spaninsidenav">Landlord</spna>
@@ -163,8 +163,8 @@ const SideNavbar = () => {
             {changeIcon === "Properties" ? (
               <svg
                 xmlns="http://www.w3.org/2000/svg"
-                width="65"
-                height="65"
+                width="50"
+                height="50"
                 viewBox="0 0 75 50"
                 fill="none"
               >
@@ -217,8 +217,8 @@ const SideNavbar = () => {
             ) : (
               <svg
                 xmlns="http://www.w3.org/2000/svg"
-                width="65"
-                height="65"
+                width="50"
+                height="50"
                 viewBox="0 0 75 50"
                 fill="none"
               >
@@ -279,9 +279,9 @@ const SideNavbar = () => {
         >
           <Link to="/rooms" className="nav-link icon-container">
             {changeIcon === "Rooms" ? (
-              <img src={room} alt="loading" width={65} height={65} />
+              <img src={room} alt="loading" width={50} height={50} />
             ) : (
-              <img src={room} alt="loading" width={65} height={65} />
+              <img src={room} alt="loading" width={50} height={50} />
             )}
           </Link>
           <spna className="spaninsidenav">Rooms</spna>
@@ -295,8 +295,8 @@ const SideNavbar = () => {
             {changeIcon === "Tenant" ? (
               <svg
                 xmlns="http://www.w3.org/2000/svg"
-                width="75"
-                height="44"
+                width="50"
+                height="50"
                 viewBox="0 0 75 44"
                 fill="none"
               >
@@ -347,8 +347,8 @@ const SideNavbar = () => {
             ) : (
               <svg
                 xmlns="http://www.w3.org/2000/svg"
-                width="65"
-                height="65"
+                width="50"
+                height="50"
                 viewBox="0 0 75 44"
                 fill="none"
               >
@@ -409,7 +409,7 @@ const SideNavbar = () => {
             {changeIcon === "OpenHouse" ? (
               <svg
                 xmlns="http://www.w3.org/2000/svg"
-                width="75"
+                width="50"
                 height="50"
                 viewBox="0 0 75 50"
                 fill="none"
@@ -487,8 +487,8 @@ const SideNavbar = () => {
             ) : (
               <svg
                 xmlns="http://www.w3.org/2000/svg"
-                width="65"
-                height="65"
+                width="50"
+                height="50"
                 viewBox="0 0 75 50"
                 fill="none"
               >
@@ -575,8 +575,8 @@ const SideNavbar = () => {
             {changeIcon === "Maintenance" ? (
               <svg
                 xmlns="http://www.w3.org/2000/svg"
-                width="65"
-                height="65"
+                width="50"
+                height="50"
                 viewBox="0 0 75 50"
                 fill="none"
               >
@@ -601,8 +601,8 @@ const SideNavbar = () => {
             ) : (
               <svg
                 xmlns="http://www.w3.org/2000/svg"
-                width="65"
-                height="65"
+                width="50"
+                height="50"
                 viewBox="0 0 75 50"
                 fill="none"
               >
@@ -637,8 +637,8 @@ const SideNavbar = () => {
             {changeIcon === "Finances" ? (
               <svg
                 xmlns="http://www.w3.org/2000/svg"
-                width="65"
-                height="65"
+                width="50"
+                height="50"
                 viewBox="0 0 75 50"
                 fill="none"
               >
@@ -653,8 +653,8 @@ const SideNavbar = () => {
             ) : (
               <svg
                 xmlns="http://www.w3.org/2000/svg"
-                width="65"
-                height="65"
+                width="50"
+                height="50"
                 viewBox="0 0 75 50"
                 fill="none"
               >
@@ -678,8 +678,8 @@ const SideNavbar = () => {
             {changeIcon === "Agreements" ? (
               <svg
                 xmlns="http://www.w3.org/2000/svg"
-                width="65"
-                height="65"
+                width="50"
+                height="50"
                 viewBox="0 0 75 50"
                 fill="none"
               >
@@ -720,8 +720,8 @@ const SideNavbar = () => {
             ) : (
               <svg
                 xmlns="http://www.w3.org/2000/svg"
-                width="65"
-                height="65"
+                width="50"
+                height="50"
                 viewBox="0 0 75 50"
                 fill="none"
               >
@@ -772,8 +772,8 @@ const SideNavbar = () => {
               <svg
                 xmlns="http://www.w3.org/2000/svg"
                 xmlnsXlink="http://www.w3.org/1999/xlink"
-                width="65"
-                height="65"
+                width="50"
+                height="50"
                 viewBox="0 0 75 50"
                 fill="none"
               >
@@ -809,8 +809,8 @@ const SideNavbar = () => {
               <svg
                 xmlns="http://www.w3.org/2000/svg"
                 xmlnsXlink="http://www.w3.org/1999/xlink"
-                width="65"
-                height="65"
+                width="50"
+                height="50"
                 viewBox="0 0 75 50"
                 fill="none"
               >
@@ -855,8 +855,8 @@ const SideNavbar = () => {
             {changeIcon === "Inquiries" ? (
               <svg
                 xmlns="http://www.w3.org/2000/svg"
-                width="65"
-                height="65"
+                width="50"
+                height="50"
                 viewBox="0 0 75 50"
                 fill="none"
               >
@@ -888,8 +888,8 @@ const SideNavbar = () => {
             ) : (
               <svg
                 xmlns="http://www.w3.org/2000/svg"
-                width="65"
-                height="65"
+                width="50"
+                height="50"
                 viewBox="0 0 75 50"
                 fill="none"
               >
