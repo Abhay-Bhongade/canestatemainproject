@@ -2209,7 +2209,7 @@ height: 743px; */
   text-transform: unset !important;
 }
 
-@media (min-width: 1441px) {
+@media (min-width: 1435px) {
   .address-input {
     width: 531px !important;
   }
@@ -2262,4 +2262,8 @@ height: 743px; */
 
 .date-picker-input {
   font-size: 12px !important;
+}
+
+.css-7lfgzq:hover {
+  background-color: grey !important;
 }
