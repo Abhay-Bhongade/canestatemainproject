@@ -2236,7 +2236,7 @@ height: 743px; */
   font-size: 10px;
   font-weight: 500;
   letter-spacing: 1px;
-  margin-top: -0.5rem;
+  margin-top: -0.6rem;
   color: #000;
   opacity: 0; /* Set the initial opacity to hide the element */
   transition: opacity 0.3s; /* Add a transition effect for smooth fade-in/out */

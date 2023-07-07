@@ -46,7 +46,7 @@ const SideNavbar = () => {
     <div className="bg-white p-2 sidemenu">
       <Link
         to="/"
-        className="d-flex text-decoration-none align-item-center mt-2 justify-content-center"
+        className="d-flex text-decoration-none align-item-center  justify-content-center"
       >
         <img
           className="fs-4 d-none d-sm-inline brand-logo"
@@ -54,7 +54,7 @@ const SideNavbar = () => {
           alt="logo"
         />
       </Link>
-      <ul className="nav nav-pills flex-column mt-1">
+      <ul className="nav nav-pills flex-column mt-4">
         <li
           className="nav-item side-nav-item  side-nav-item11"
           onClick={Dashboard_Handle}
