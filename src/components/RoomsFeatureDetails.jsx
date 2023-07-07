@@ -62,8 +62,8 @@ const RoomsFeatureDetails = () => {
               // data-toggle="modal"
               // data-target="#myModal2"
               type="submit"
-              data-bs-toggle="modal"
-              data-bs-target="#myModal"
+              // data-bs-toggle="modal"
+              // data-bs-target="#myModal"
             >
               <LoopOutlinedIcon className="refresh" />
             </button>
@@ -89,7 +89,7 @@ const RoomsFeatureDetails = () => {
         </div>
       </div>
 
-      <div class="modal right fade" id="myModal">
+      {/* <div class="modal right fade" id="myModal">
         <div class="modal-dialog">
           <div class="modal-content">
             <div class="modal-header">
@@ -162,7 +162,7 @@ const RoomsFeatureDetails = () => {
             </div>
           </div>
         </div>
-      </div>
+      </div> */}
       {/* Filters-modal-end */}
     </>
   );
