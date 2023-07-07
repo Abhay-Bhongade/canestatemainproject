@@ -283,7 +283,7 @@ const SideNavbar = () => {
             {changeIcon === "Rooms" ? (
               <img src={roooms} alt="loading" width={50} height={50} />
             ) : (
-              <img src={room} alt="loading" width={50} height={50} />
+              <img src={room} alt="loading" width={48} height={48} />
             )}
           </Link>
           <spna className="spaninsidenav">Rooms</spna>
