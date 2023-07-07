@@ -158,16 +158,16 @@ const FeatureDetailsInProperty = ({ onCheckboxChange }) => {
         <div className="mt-3 ">
           <h6 className="text-left mb-2 mid-zone-heading">Amenities</h6>
           <div>
-            <p className="dynamic-width-text">Shed</p>
-            <p className="dynamic-width-text mx-2">Tennis Court</p>
             <p className="dynamic-width-text">On Site Security</p>
-            <p className="dynamic-width-text mx-2">Tennis Court</p>
-            <p className="dynamic-width-text">On Site Security</p>
-            <p className="dynamic-width-text ">On Site Security</p>
-            <p className="dynamic-width-text mx-2">Tennis Court</p>
-            <p className="dynamic-width-text ">Shed</p>
-            <p className="dynamic-width-text mx-2">On Site Security</p>
-            <p className="dynamic-width-text ">Tennis Court</p>
+            <p className="dynamic-width-text mx-2">Elevator</p>
+            <p className="dynamic-width-text">Swimming Pool</p>
+            <p className="dynamic-width-text mx-2">Cctv</p>
+            <p className="dynamic-width-text">Bbq Area</p>
+            <p className="dynamic-width-text ">Bike Racks</p>
+            <p className="dynamic-width-text mx-2">Bike Room</p>
+            <p className="dynamic-width-text ">Buzzer Entry</p>
+            <p className="dynamic-width-text mx-2">Fitness Area</p>
+            <p className="dynamic-width-text ">Garage</p>
           </div>
         </div>
         <div>
@@ -176,15 +176,11 @@ const FeatureDetailsInProperty = ({ onCheckboxChange }) => {
               Tenant Liabilities
             </h6>
             <div></div>
-            <p className="dynamic-width-text">Tennis Court</p>
-            <p className="dynamic-width-text mx-2">Shed</p>
-            <p className="dynamic-width-text">On Site Security</p>
-            <p className="dynamic-width-text mx-2">Tennis Court</p>
-            <p className="dynamic-width-text">On Site Security</p>
-            <p className="dynamic-width-text">On Site Security</p>
-            <p className="dynamic-width-text mx-2">Shed</p>
-            <p className="dynamic-width-text">On Site Security</p>
-            <p className="dynamic-width-text mx-2">Tennis Court</p>
+            <p className="dynamic-width-text">Heat</p>
+            <p className="dynamic-width-text mx-2">Hydro</p>
+            <p className="dynamic-width-text">Water</p>
+            <p className="dynamic-width-text mx-2">Snow Removal</p>
+            <p className="dynamic-width-text">Lawn Maintenance</p>
           </div>
         </div>
         <div className="checkboxcnt mb-3">
