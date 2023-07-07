@@ -2219,6 +2219,9 @@ height: 743px; */
   .teinforhigher {
     padding-right: 1.7rem !important;
   }
+  .diacontent {
+    height: 500px !important;
+  }
 }
 
 .css-19xm0h7-MuiButtonBase-root-MuiPaginationItem-root.Mui-selected {

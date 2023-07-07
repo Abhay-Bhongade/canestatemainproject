@@ -221,7 +221,7 @@ const AddressDetailsInProperty = () => {
           Terms & Conditions
         </DialogTitle>
         <hr />
-        <DialogContent
+        <DialogContent className="diacontent"
           style={{ height: "650px", paddingTop: "0px", overflowY: "hidden" }}
         >
           <DialogTitle
