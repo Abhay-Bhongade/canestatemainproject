@@ -168,8 +168,9 @@ const AddressDetailsInRooms = () => {
           Terms & Conditions
         </DialogTitle>
         <hr />
-        <DialogContent className="diacontent"
-          style={{ height: "650px", paddingTop: "0px", overflowY: "hidden" }}
+        <DialogContent
+          className="diacontent"
+          style={{ paddingTop: "0px", overflowY: "hidden" }}
         >
           <DialogTitle
             className="my-1 ms-3"
