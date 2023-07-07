@@ -2273,3 +2273,9 @@ height: 743px; */
 .css-7lfgzq:hover {
   background-color: grey !important;
 }
+
+.css-2gftvx.Mui-selected {
+  background-color: white !important ;
+  border: 1px solid #db1516 !important;
+  color: #db1516 !important;
+}
