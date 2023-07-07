@@ -9,6 +9,7 @@ import {
   DialogActions,
 } from "@mui/material";
 import { Typography, TextField, Button, MenuItem, Box } from "@mui/material";
+import AddCircleOutlineIcon from "@mui/icons-material/AddCircleOutline";
 
 const AddressDetailsInRooms = () => {
   const [isVerificationDialogOpen, setisVerificationDialogOpen] =
@@ -29,10 +30,17 @@ const AddressDetailsInRooms = () => {
     <div>
       <div className="container bg-white  ">
         <div className="row">
-          <h3 className="address-heading mt-2 mb-3">Address Details</h3>
+          <h3 className="address-heading mt-2">Address Details</h3>
           <div className="col-md-12 mt-3">
-            {/* <divnpm run dev
-             */}
+            <div className="text-end">
+              <AddCircleOutlineIcon
+                color="error"
+                sx={{ fontSize: "20px", Padding: "0 0 2px 0" }}
+              />
+              <span className="addaddressheading ms-2">
+                Add Address Manually
+              </span>
+            </div>
             <div className="search-container">
               <input
                 type="text"

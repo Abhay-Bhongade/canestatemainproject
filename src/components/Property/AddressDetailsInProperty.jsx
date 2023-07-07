@@ -169,6 +169,7 @@ const AddressDetailsInProperty = () => {
                 id="invalidCheck"
                 required
                 onChange={(e) => handleChange(e)}
+                checked={isCheckboxChecked}
               />
               <label className="form-check-label" htmlFor="invalidCheck">
                 I accept the <a>terms & conditions</a> to add my property to the
