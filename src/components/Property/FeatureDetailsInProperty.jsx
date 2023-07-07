@@ -156,7 +156,7 @@ const FeatureDetailsInProperty = ({ onCheckboxChange }) => {
           </div>
         </div>
         <div className="mt-3 ">
-          <h6 className="text-left mb-2 mid-zone-heading">Ammenities</h6>
+          <h6 className="text-left mb-2 mid-zone-heading">Amenities</h6>
           <div>
             <p className="dynamic-width-text">Shed</p>
             <p className="dynamic-width-text mx-2">Tennis Court</p>

@@ -33,9 +33,8 @@ const RentDetailsInProperty = () => {
             aria-label="Default select example"
           >
             <option defaultValue>Contract Type</option>
-            <option value="1">One</option>
-            <option value="2">Two</option>
-            <option value="3">Three</option>
+            <option value="1">Fixed</option>
+            <option value="2">Monthly</option>
           </select>
         </div>
         <div className="twoinputcnt my-2">
@@ -45,10 +44,10 @@ const RentDetailsInProperty = () => {
               aria-label="Default select example"
             >
               <option defaultValue>Period</option>
-              <option value="1">4 Month</option>
-              <option value="2">8 Month</option>
-              <option value="3">12 Month</option>
-              <option value="4">24 Month</option>
+              <option value="1">Notting</option>
+              <option value="2">04 Month</option>
+              <option value="3">08 Month</option>
+              <option value="4">12 Month</option>
             </select>
           </div>
           <div className="mini-inputs-fordate">

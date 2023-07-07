@@ -89,7 +89,6 @@ const FeatureDetailsInRooms = () => {
                 <input
                   type="radio"
                   name="radio-input"
-                  checked="checked"
                   className="custom-control-input"
                   id="checkbox"
                 />{" "}
@@ -140,12 +139,7 @@ const FeatureDetailsInRooms = () => {
               <h6 className="m-0">Add-ons</h6>
             </div>
             <div className="swich-area">
-              <Switch
-                className="mini-switch"
-                {...label}
-                defaultChecked
-                disabled
-              />
+              <Switch className="mini-switch" {...label} defaultChecked />
             </div>
           </div>
           <div className="mt-2">

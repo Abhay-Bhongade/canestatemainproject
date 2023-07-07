@@ -98,7 +98,6 @@ const FeatureDetailsInProperty2 = ({ onCheckboxChange }) => {
                   <input
                     type="radio"
                     name="radio-input"
-                    checked="checked"
                     className="custom-control-input"
                     id="checkbox"
                   />{" "}
@@ -155,7 +154,7 @@ const FeatureDetailsInProperty2 = ({ onCheckboxChange }) => {
                   className="mini-switch"
                   {...label}
                   defaultChecked
-                  disabled
+                  
                 />
               </div>
             </div>
