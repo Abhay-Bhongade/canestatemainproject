@@ -116,9 +116,13 @@ function Content() {
         <Route path="/addroom" element={<RoomsFeatureDetails />} />
         <Route path="/landlord" element={<LandlordDisplayArea />} />
         <Route path="/addlandlord" element={<LandloadFeatureDetails />} />
-        <Route path="/finance" element={<div>Finance</div>}></Route>
+        <Route path="/Finances" element={<div>Finance</div>}></Route>
         <Route path="/account" element={<div>Account</div>}></Route>
-        <Route path="/maintance" element={<div>Maintance</div>}></Route>
+        <Route path="/maintenance" element={<div>Maintance</div>}></Route>
+        <Route path="/inquiries" element={<div>Inquiries</div>}></Route>
+        <Route path="/openhouse" element={<div>OpenHouse</div>}></Route>
+        <Route path="/agreements" element={<div>Agreements</div>}></Route>
+        <Route path="/Contractors" element={<div>Contractors</div>}></Route>
         <Route path="/logout" element={<div>YOu are logout</div>}></Route>
       </Routes>
     </div>

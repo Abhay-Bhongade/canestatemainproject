@@ -2259,3 +2259,7 @@ height: 743px; */
 .css-1euogjj-MuiButtonBase-root-MuiIconButton-root:hover {
   background-color: grey !important;
 }
+
+.date-picker-input {
+  font-size: 12px !important;
+}
