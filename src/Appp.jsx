@@ -110,11 +110,14 @@ function Content() {
 
         <Route path="/property" element={<PropertyDisplayrArea />} />
         <Route path="/addproperty" element={<FeatureDetails />} />
-        <Route path="/tenant" element={<TenantsDisplayArea />} />
+        {/* <Route path="/tenant" element={<TenantsDisplayArea />} /> */}
+        <Route path="/tenant" element={<div>Tenant</div>} />
         <Route path="/addtenant" element={<TanantsFeatureDetails />} />
         <Route path="/rooms" element={<RoomsDisplayArea />} />
         <Route path="/addroom" element={<RoomsFeatureDetails />} />
-        <Route path="/landlord" element={<LandlordDisplayArea />} />
+        {/* <Route path="/landlord" element={<LandlordDisplayArea />} /> */}
+        <Route path="/landlord" element={<div>Landlord</div>} />
+
         <Route path="/addlandlord" element={<LandloadFeatureDetails />} />
         <Route path="/Finances" element={<div>Finance</div>}></Route>
         <Route path="/account" element={<div>Account</div>}></Route>
