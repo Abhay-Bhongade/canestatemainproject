@@ -80,7 +80,7 @@ const RentDetailsInRooms = () => {
         >
           <option defaultValue>Contract Type</option>
           <option value="1">Fixed</option>
-            <option value="2">Monthly</option>
+          <option value="2">Monthly</option>
         </select>
       </div>
       <div className="twoinputcnt my-2">
@@ -115,26 +115,14 @@ const RentDetailsInRooms = () => {
       </div>
 
       <div className="twoinputcnt my-2">
-        {/* <div className="search-container">
-                <input
-                  type="text"
-                  className="address-input form-control "
-                  placeholder="Enter Address"
-                />
-                <div className="address-btn">
-                  <GpsFixedTwoToneIcon
-                    sx={{ fontSize: "18px", fontWeight: 100 }}
-                  />
-                </div>
-              </div> */}
         <div className="mini-input-switch-container">
-          <input
-            type="text"
-            className="form-control mini-inputs-rent"
-            placeholder="Room Availability"
-          />
-          <div className="switch-icon">
-            <Switch className="mini-switch" {...label} defaultChecked />
+          <div className="mini-inputs-rent">
+            <div className="text-rent-mini">
+              <p>Room Availability</p>
+            </div>
+            <div className="switch-icon">
+              <Switch className="mini-switch" {...label} defaultChecked />
+            </div>
           </div>
         </div>
 
